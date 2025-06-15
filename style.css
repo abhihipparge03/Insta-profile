@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  font-family: 'Arial', sans-serif;
+  color: #fff;
+}
+
+/* Header */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 16px;
+  border-bottom: 1px solid #262626;
+}
+
+.username {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.icons span {
+  margin-left: 10px;
+  font-size: 18px;
+}
+
+/* Profile */
+.profile {
+  display: flex;
+  align-items: center;
+  padding: 16px;
+}
+
+.profile img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  margin-right: 16px;
+}
+
+.profile-info .name {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.profile-info .counts {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+  margin-top: 4px;
+}
+
+/* Buttons */
+.profile-buttons {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 10px 16px;
+}
+
+.profile-buttons button {
+  background-color: #262626;
+  color: #fff;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+/* Create Post */
+.create-post {
+  text-align: center;
+  margin-top: 32px;
+  padding: 16px;
+}
+
+.create-post p {
+  color: #aaa;
+  margin-bottom: 10px;
+}
+
+.upload-btn {
+  background-color: #3897f0;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 6px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/* Gallery */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 6px;
+  padding: 16px;
+}
+
+.gallery-image {
+  width: 100%;
+  aspect-ratio: 1/1;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+/* Bottom Nav */
+.nav {
+  display: flex;
+  justify-content: space-around;
+  padding: 12px 0;
+  border-top: 1px solid #262626;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: #000;
+}

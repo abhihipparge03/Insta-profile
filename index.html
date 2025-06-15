@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Profile Page</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="username">your_username</div>
+    <div class="icons">
+      <span>🔔</span>
+      <span>☰</span>
+    </div>
+  </div>
+
+  <!-- Profile Section -->
+  <div class="profile">
+    <img src="profile.jpg" alt="Profile" />
+    <div class="profile-info">
+      <div class="name">Your Name</div>
+      <div class="counts">
+        <span><strong>0</strong> posts</span>
+        <span><strong>0</strong> followers</span>
+        <span><strong>1</strong> following</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Buttons -->
+  <div class="profile-buttons">
+    <button>Edit Profile</button>
+    <button>Share Profile</button>
+  </div>
+
+  <!-- Create Post Section -->
+  <div class="create-post">
+    <p>Capture the moment with a friend</p>
+    <button class="upload-btn">send your look to abhi_hipparge_03</button>
+    <input type="file" id="fileInput" accept="image/*" multiple style="display: none;" />
+  </div>
+
+  <!-- Gallery -->
+  <div id="gallery" class="gallery"></div>
+
+  <!-- Bottom Navigation -->
+  <div class="nav">
+    <span>🏠</span>
+    <span>🔍</span>
+    <span>➕</span>
+    <span>❤️</span>
+    <span>👤</span>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
